@@ -42,7 +42,7 @@ header nav a {
         background-color:lightcoral;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
-        font-size: larger;
+        font-size: x-large;
     }
 }
 
@@ -59,8 +59,8 @@ header nav a {
         background-color: darkgray;
         font-family: 'Courier New', Courier, monospace;
         text-transform: uppercase;
+        text-align: right;
         font-weight: bolder;
         font-size:xx-large
-        text-align: right;
     }
 }
