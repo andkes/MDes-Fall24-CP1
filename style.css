@@ -57,5 +57,8 @@ header nav a {
     body {
         background-color: darkgray;
         font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        font-weight: bolder;
+        text-align: right;
     }
 }
