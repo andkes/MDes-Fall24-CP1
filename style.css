@@ -30,20 +30,23 @@ header nav a {
 /* TABLET VIEW */
 @media screen and (min-width: 768px) {
     header nav {
-        background-color: black
+        background-color:darkgrey
     }
     
     header nav ul {
         flex-direction: row;
         justify-content: space-evenly;
-        color: tomato;
+    }
+    body {
+        background-color:lightcoral;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
 
 /* DESKTOP VIEW */
 @media screen and (min-width: 1024px) {
     header nav {
-        background-color: chocolate;
+        background-color: lightcoral;
     }
     header nav ul {
         justify-content: flex-end;
