@@ -14,7 +14,7 @@ header nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 header nav li { 
@@ -29,6 +29,10 @@ header nav a {
 
 /* TABLET VIEW */
 @media screen and (min-width: 768px) {
+    header nav {
+        background-color: lightsteelblue;
+    }
+    
     header nav ul {
         flex-direction: row;
         justify-content: space-evenly;
@@ -36,4 +40,8 @@ header nav a {
 }
 
 /* DESKTOP VIEW */
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 1024px) {
+    header nav ul {
+        justify-content: flex-end;
+    }
+}
