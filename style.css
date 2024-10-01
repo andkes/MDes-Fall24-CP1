@@ -36,7 +36,7 @@ header nav a {
     header nav ul {
         flex-direction: row;
         justify-content: space-evenly;
-        text-decoration-color: #ffffff;
+        color: tomato;
     }
 }
 
